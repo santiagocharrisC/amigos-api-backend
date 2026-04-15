@@ -31,6 +31,6 @@ public class AmigoService {
     }
 
     public void eliminar(Long id) {
-        repo.deleteById(id);
+    	repo.deleteById(id);
     }
 }
